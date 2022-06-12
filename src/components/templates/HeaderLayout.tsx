@@ -1,4 +1,4 @@
-import { memo, VFC } from "react";
+import { memo, VFC, ReactNode } from "react";
 import { Header } from "../organisms/layout/Header";
 
 type Props = {

@@ -12,7 +12,7 @@ import {
   Link,
   useDisclosure
 } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icon";
+import { HamburgerIcon } from "@chakra-ui/icons";
 
 export const Header: VFC = memo(() => {
   const { isOpen, onOpen, onClose } = useDisclosure();
