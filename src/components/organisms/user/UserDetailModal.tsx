@@ -12,9 +12,10 @@ import {
   Input
 } from "@chakra-ui/react";
 
-import {} from "../../../types/api/user";
+import { User } from "../../../types/api/user";
 
 type Props = {
+  user: User | null;
   isOpen: boolean;
   onClose: () => void;
 };
