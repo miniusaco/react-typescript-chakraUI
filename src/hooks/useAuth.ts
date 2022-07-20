@@ -28,10 +28,10 @@ export const useAuth = () => {
             setLoading(false);
           }
         })
-        .catch(() =>
+        .catch(() => {
           showMessage({ title: "ログインできません", status: "error" });
           setLoading(false);
-      });
+        });
     },
     [history, showMessage, setLoginUser]
   );
